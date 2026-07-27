@@ -6,6 +6,7 @@
 [![Docs-stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://senresearch.github.io/BigRiverPlots.jl/stable)
 [![Docs-dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://senresearch.github.io/BigRiverPlots.jl/dev)
 [![Pkg Status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![GNU Affero license](https://img.shields.io/badge/license%20-GNU%20AFFERO%20GENERAL%20PUBLIC%20-green)](https://github.com/senresearch/BigRiverPlots.jl/blob/main/LICENSE.md)
 
 
 ## Description
@@ -16,26 +17,32 @@ designed to streamline data visualization and enhance the process of statistical
 
 ![BigRiverPlots example plots](images/banner.svg)
 
-Every plot is built on [RecipesBase](https://github.com/JuliaPlots/RecipesBase.jl), so
-the recipes stay dormant until the user loads Plots. They are model-agnostic: each takes
-the matrices a model produces — a scores matrix, a loadings matrix, a vector of
-variances — rather than the model object itself, so any decomposition that yields those
-can be drawn with them.
+The package is built using [RecipesBase.jl](https://github.com/JuliaPlots/RecipesBase.jl). 
+Its recipes remain lightweight and use `Plots.jl` as a compatible plotting backend.
+To render and display these recipes, users must also load the `Plots.jl` package.
 
-The package currently provides the following plots:
+The plotting recipes are not tied to a particular statistical model or Julia package. 
+They operate directly on common model outputs, such as scores, loadings, and explained variances.
 
-* Biplot — the observations and the variable loadings on one canvas
-* Confidence plot — the uncertainty region around each observation or group mean, shown as a band
-* JIVE variance plot — the joint, individual, and residual variation of each block
-* Loadings heatmap — every variable against every component
-* Loadings plot — the contribution of each variable to one component
-* Mosaic plot — a contingency table drawn as tiles of proportional area
-* Pairs plot — a grid crossing several components at once
-* Predicted versus observed plot — the fit of a regression
-* Scores plot — the observations in the space of two components
-* Scree plot — the variance carried by each component
-* Sparsity plot — the number of variables each component keeps
-* VIP plot — the Variable Importance in Projection of a discriminant model
+Consequently, the plots can be used with any statistical method or decomposition that produces the required inputs.
+
+
+## Available Plots
+
+`BigRiverPlots.jl` currently provides the following visualizations:
+
+* **Biplot** — displays observations and variable loadings on the same coordinate system.
+* **Confidence plot** — displays uncertainty regions around observations or group means.
+* **JIVE variance plot** — summarizes the joint, individual, and residual variation for each data block.
+* **Loadings heatmap** — displays variable loadings across multiple components.
+* **Loadings plot** — shows the contribution of each variable to a selected component.
+* **Mosaic plot** — represents a contingency table using tiles with areas proportional to cell frequencies.
+* **Pairs plot** — displays pairwise relationships among several components.
+* **Predicted versus observed plot** — assesses the fit of a regression or prediction model.
+* **Scores plot** — displays observations in the space defined by two components.
+* **Scree plot** — shows the variance explained by each component.
+* **Sparsity plot** — shows the number of variables retained in each component.
+* **VIP plot** — displays Variable Importance in Projection scores from a projection-based model.
 
 ## Installation
 
@@ -67,4 +74,3 @@ Users can contribute by opening an issue or submitting a pull request.
 ## Questions
 
 If you have questions about contributing or using `BigRiverPlots` package, please communicate with the authors via GitHub.
-
