@@ -17,7 +17,7 @@ designed to streamline data visualization and enhance the process of statistical
 
 ![BigRiverPlots example plots](images/banner.svg)
 
-The package is built using [RecipesBase.jl](https://github.com/JuliaPlots/RecipesBase.jl). 
+The package is built using [RecipesBase.jl](https://github.com/JuliaPlots/Plots.jl/tree/v2/RecipesBase). 
 Its recipes remain lightweight and use `Plots.jl` as a compatible plotting backend.
 To render and display these recipes, users must also load the `Plots.jl` package.
 
