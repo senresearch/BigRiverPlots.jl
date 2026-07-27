@@ -16,7 +16,7 @@ jobs:
         version:
           - '1.10.11' # Long Terms Support (LTS) release
           - '1' # automatically expands to the latest stable 1.x release of Julia
-          - 'nightly'
+          #- 'nightly'
         os:
           - ubuntu-latest
         include:
