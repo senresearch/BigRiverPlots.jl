@@ -2,10 +2,10 @@
 
 ## Public functions and types
 
-These are the functions and types exported by `WolfRiverPlots.jl`.
+These are the functions and types exported by `BigRiverPlots.jl`.
 
 ```@autodocs
-Modules = [WolfRiverPlots]
+Modules = [BigRiverPlots]
 Private = false
 Order = [:function, :type]
 ```
@@ -15,7 +15,7 @@ Order = [:function, :type]
 Internal helpers, documented for reference. These are not part of the public API and may change.
 
 ```@autodocs
-Modules = [WolfRiverPlots]
+Modules = [BigRiverPlots]
 Public = false
 Order = [:function, :type]
 ```

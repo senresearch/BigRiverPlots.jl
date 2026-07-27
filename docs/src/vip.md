@@ -20,7 +20,7 @@ The other models store no VIP. Their variable importance is read from the loadin
 
 ```@example vip
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 

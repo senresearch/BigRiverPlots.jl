@@ -4,10 +4,10 @@
 # Best run from the REPL so the windows stay up:
 #   julia> include("Informal_testing/Test_mosaic.jl")
 #
-# (needs Plots and WolfRiverPlots in the active environment)
+# (needs Plots and BigRiverPlots in the active environment)
 
 using Plots
-using WolfRiverPlots
+using BigRiverPlots
 
 
 # ===========================================================================

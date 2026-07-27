@@ -13,7 +13,7 @@ It takes the same loadings matrix as before, variables in rows and components in
 
 ```@example loadings_heatmap
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 ```

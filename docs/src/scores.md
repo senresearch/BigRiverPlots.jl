@@ -13,7 +13,7 @@ We simulate a small data set, fit a PCA, look at the default plot, and then buil
 
 ```@example scores
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 

@@ -25,7 +25,7 @@ The two-block models draw their Y side the same way, from `m.loadings_Y`, `m.ypr
 
 ```@example loadings
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 ```

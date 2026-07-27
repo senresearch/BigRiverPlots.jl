@@ -1,4 +1,4 @@
-using WolfRiverPlots
+using BigRiverPlots
 using BigRiverEssence   # the example blocks fit models from here
 using Documenter
 
@@ -19,28 +19,28 @@ cp(joinpath(@__DIR__, "..", "LICENSE"),
    joinpath(@__DIR__, "src", "LICENSE"); force = true)   
 
 makedocs(;
-    modules = [WolfRiverPlots],
-    sitename = "WolfRiverPlots.jl",
+    modules = [BigRiverPlots],
+    sitename = "BigRiverPlots.jl",
     pages = [
         "Home" => "index.md",
-        "Scores" => "scores.md",
-        "Loadings" => "loadings.md",
         "Biplot" => "biplot.md",
-        "Scree" => "scree.md",
-        "Loadings Heatmap" => "loadings_heatmap.md",
-        "Pairs" => "pairs.md",
-        "Vip" => "vip.md",
-        "Sparsity" => "sparse.md",
-        "Predict Observations" => "predicted_observations.md",
-        "JIVE Variance" => "jive_variance.md",
-        "Mosaic" => "mosaic.md",
         "Confidence" => "confidence.md",
+        "JIVE Variance" => "jive_variance.md",
+        "Loadings" => "loadings.md",
+        "Loadings Heatmap" => "loadings_heatmap.md",
+        "Mosaic" => "mosaic.md",
+        "Pairs" => "pairs.md",
+        "Predict Observations" => "predicted_observations.md",
+        "Scores" => "scores.md",
+        "Scree" => "scree.md",
+        "Sparsity" => "sparse.md",
+        "Vip" => "vip.md",
         "API Reference" => "api.md", 
     ],
 )
 
 deploydocs(;
-    repo = "github.com/senresearch/WolfRiverPlots.jl.git",
+    repo = "github.com/senresearch/BigRiverPlots.jl.git",
     devbranch = "main",
     devurl = "dev",
 )

@@ -3,7 +3,7 @@
 # Run once, by hand:  julia --project=. test/scripts/generate_predict_observations.jl
 
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using Helium
 using StableRNGs

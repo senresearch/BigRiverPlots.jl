@@ -8,7 +8,7 @@
 # component with the default attributes and saves it as test/ref/loadings_ref.png.
 
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using Helium
 using StableRNGs

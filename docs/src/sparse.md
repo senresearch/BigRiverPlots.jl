@@ -22,7 +22,7 @@ Note that `pmd` and `scca` penalize **both** factors, so each has a sparsity on 
 
 ```@example sparse
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 ```

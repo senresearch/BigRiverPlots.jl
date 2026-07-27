@@ -1,6 +1,6 @@
 # test/scripts — fixture and reference generators
 
-This folder holds the scripts that build the test fixtures for every WolfRiverPlots
+This folder holds the scripts that build the test fixtures for every BigRiverPlots
 recipe. Each `generate_*.jl` fits a model on small, seeded data, saves the plot's input
 as a `.he` fixture, and renders a reference image. The tests in `test/` then load those
 fixtures, re-render, and compare — they never fit a model or touch these scripts at run

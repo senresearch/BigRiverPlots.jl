@@ -1,4 +1,4 @@
-using WolfRiverPlots
+using BigRiverPlots
 using Distributions, Random
 using Plots
 

@@ -18,7 +18,7 @@ The frame is kept square with matched limits, so the diagonal really is at forty
 
 ```@example predobs
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 

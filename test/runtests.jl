@@ -11,7 +11,7 @@
 using Test
 
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using Helium
 using FileIO
@@ -22,7 +22,7 @@ ENV["GKSwstype"] = "nul"
 
 
 
-@testset "WolfRiverPlots.jl" begin
+@testset "BigRiverPlots.jl" begin
 	include("recipes_tests.jl")
 
 	###########

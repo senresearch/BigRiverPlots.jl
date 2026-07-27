@@ -22,7 +22,7 @@ The regression and discriminant models — `plskern`, `plsda`, `splsda` — stor
 
 ```@example scree
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 ```

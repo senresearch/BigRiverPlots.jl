@@ -10,7 +10,7 @@ It takes a plain contingency table, so it is not tied to any model: any cross ta
 
 
 ```@example mosaic
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 
 ```

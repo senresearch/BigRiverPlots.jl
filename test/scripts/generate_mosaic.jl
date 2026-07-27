@@ -7,7 +7,7 @@
 # model to seed or fit. The table is written straight to test/data/mosaic_counts.he, and
 # the plot with the default attributes rendered to test/ref/mosaic_ref.png.
 
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using Helium
 

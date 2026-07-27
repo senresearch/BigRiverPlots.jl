@@ -13,7 +13,7 @@ We use the same simulation as the scores and loadings notebooks, so all three de
 
 ```@example biplot
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 

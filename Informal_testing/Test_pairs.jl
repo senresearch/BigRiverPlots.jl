@@ -3,11 +3,11 @@
 # Best run from the REPL so the windows stay up:
 #   julia> include("test_pairs.jl")
 #
-# (needs Plots, BigRiverEssence and WolfRiverPlots in the active environment)
+# (needs Plots, BigRiverEssence and BigRiverPlots in the active environment)
 
 using Plots
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Random
 
 Random.seed!(42)

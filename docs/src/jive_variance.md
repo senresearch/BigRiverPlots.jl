@@ -17,7 +17,7 @@ The three fractions sum to one, so every bar reaches the same height and what we
 
 ```@example jive_var
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 using Statistics

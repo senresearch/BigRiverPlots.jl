@@ -6,7 +6,7 @@
 # writes images/banner.svg
 
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 using Statistics

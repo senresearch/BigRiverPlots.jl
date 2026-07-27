@@ -8,7 +8,7 @@
 # it as test/ref/vip_ref.png.
 
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using Helium
 using StableRNGs

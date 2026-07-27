@@ -1,15 +1,15 @@
-# WolfRiverPlots
+# BigRiverPlots
 
 
-[![CI](https://github.com/senresearch/WolfRiverPlots.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/senresearch/WolfRiverPlots.jl/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/senresearch/WolfRiverPlots.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/senresearch/WolfRiverPlots.jl)
-[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://senresearch.github.io/WolfRiverPlots.jl/dev)
+[![CI](https://github.com/senresearch/BigRiverPlots.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/senresearch/BigRiverPlots.jl/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/senresearch/BigRiverPlots.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/senresearch/BigRiverPlots.jl)
+[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://senresearch.github.io/BigRiverPlots.jl/dev)
 [![Pkg Status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 
 ## Description
 
-WolfRiverPlots provides a set of plotting recipes for visualizing the output of
+BigRiverPlots provides a set of plotting recipes for visualizing the output of
 dimension reduction and matrix decomposition models. It is the visualization companion
 to [BigRiverEssence.jl](https://github.com/senresearch/BigRiverEssence.jl), turning a
 fitted model into the standard figures used to read it: scores, loadings, biplots, scree
@@ -18,7 +18,7 @@ plots, and more.
 > **Why "WolfRiver"?** The name follows the BigRiver Julia package ecosystem, of which
 > this package is the plotting component.
 
-![WolfRiverPlots example plots](images/banner.svg)
+![BigRiverPlots example plots](images/banner.svg)
 
 Every plot is built on [RecipesBase](https://github.com/JuliaPlots/RecipesBase.jl), so
 the recipes stay dormant until the user loads Plots. They are model-agnostic: each takes
@@ -42,24 +42,24 @@ The package currently provides the following plots:
 
 ## Installation
 
-The `WolfRiverPlots` package can be installed by running:
+The `BigRiverPlots` package can be installed by running:
 
 ```julia
 using Pkg
-Pkg.add("WolfRiverPlots")
+Pkg.add("BigRiverPlots")
 ```
 
 or from the Julia REPL, press `]` to enter pkg mode, and execute:
 
 
 ```
-add WolfRiverPlots
+add BigRiverPlots
 ```
 
 For the most recent (development) version, use:
 ```
 using Pkg
-Pkg.add(url = "https://github.com/senresearch/WolfRiverPlots.jl", rev="main")
+Pkg.add(url = "https://github.com/senresearch/BigRiverPlots.jl", rev="main")
 ```
 
 ## Contributing
@@ -69,5 +69,5 @@ Users can contribute by opening an issue or submitting a pull request.
 
 ## Questions
 
-If you have questions about contributing or using `WolfRiverPlots` package, please communicate with the authors via GitHub.
+If you have questions about contributing or using `BigRiverPlots` package, please communicate with the authors via GitHub.
 

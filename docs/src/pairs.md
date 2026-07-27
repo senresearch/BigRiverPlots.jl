@@ -13,7 +13,7 @@ The grid is square in the number of components crossed, so it grows fast — fou
 
 ```@example pairs
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using StableRNGs
 ```

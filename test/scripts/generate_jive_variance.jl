@@ -9,7 +9,7 @@
 # and renders the variance plot with the default attributes as test/ref/jive_variance_ref.png.
 
 using BigRiverEssence
-using WolfRiverPlots
+using BigRiverPlots
 using Plots
 using Helium
 using StableRNGs
