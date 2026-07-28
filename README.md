@@ -11,9 +11,7 @@
 
 ## Description
 
-`BigRiverPlots.jl` is a versatile plotting package built in the Julia 
-programming language. The package consists of specific plotting recipes, 
-designed to streamline data visualization and enhance the process of statistical analysis.
+`BigRiverPlots.jl` is a collection of plotting recipes designed for statistical visualizations.
 
 ![BigRiverPlots example plots](images/banner.svg)
 
@@ -24,7 +22,8 @@ To render and display these recipes, users must also load the `Plots.jl` package
 The plotting recipes are not tied to a particular statistical model or Julia package. 
 They operate directly on common model outputs, such as scores, loadings, and explained variances.
 
-Consequently, the plots can be used with any statistical method or decomposition that produces the required inputs.
+Consequently, the plots can be used with any statistical method or
+decomposition that produces the required inputs.
 
 
 ## Available Plots
