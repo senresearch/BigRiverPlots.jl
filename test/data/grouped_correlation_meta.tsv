@@ -1,0 +1,26 @@
+name	class	subclass
+Ast_04	Lipid	Sterol
+Ast_03	Lipid	Sterol
+Ast_02	Lipid	Sterol
+Ast_01	Lipid	Sterol
+Zar_03	amino acid	aromatic
+Zar_02	amino acid	aromatic
+Zar_01	amino acid	aromatic
+Mph_05	Lipid	phospholipid
+Mph_04	Lipid	phospholipid
+Mph_03	Lipid	phospholipid
+Mph_02	Lipid	phospholipid
+Mph_01	Lipid	phospholipid
+Bsh_03	Carbohydrate	Shared
+Bsh_02	Carbohydrate	Shared
+Bsh_01	Carbohydrate	Shared
+Ysh_02	Lipid	Shared
+Ysh_01	Lipid	Shared
+Kbr_04	amino acid	Branched
+Kbr_03	amino acid	Branched
+Kbr_02	amino acid	Branched
+Kbr_01	amino acid	Branched
+Cmo_04	Carbohydrate	Monosaccharide
+Cmo_03	Carbohydrate	Monosaccharide
+Cmo_02	Carbohydrate	Monosaccharide
+Cmo_01	Carbohydrate	Monosaccharide

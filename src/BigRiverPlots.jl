@@ -126,4 +126,16 @@ include("./mosaic/plot_mosaic.jl");
 export plot_mosaic, plot_mosaic!
 
 
+# grouped correlation functions
+include("./grouped_correlation/grouped_correlation_helpers.jl")
+export get_grouped_correlation_coords
+
+include("./grouped_correlation/grouped_correlation_recipe.jl")
+export groupedcorrelationplot, groupedcorrelationplot!, GroupedCorrelationPlot
+
+include("./grouped_correlation/plot_grouped_correlation.jl")
+export plot_grouped_correlation, plot_grouped_correlation!
+
+
+
 end # module BigRiverPlots
