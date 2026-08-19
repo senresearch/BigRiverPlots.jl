@@ -1,3 +1,11 @@
+using Pkg
+
+# Build docs in the docs-specific environment so documentation-only
+# dependencies (for example StableRNGs used in examples) are available.
+Pkg.activate(@__DIR__)
+Pkg.develop(PackageSpec(path=joinpath(@__DIR__, "..")))
+Pkg.instantiate()
+
 using BigRiverPlots
 using BigRiverEssence   # the example blocks fit models from here
 using Documenter
@@ -18,24 +26,27 @@ cp(joinpath(@__DIR__, "..", "images", "confidence_example.svg"),
 cp(joinpath(@__DIR__, "..", "LICENSE"),
    joinpath(@__DIR__, "src", "LICENSE"); force = true)   
 
+
+
 makedocs(;
     modules = [BigRiverPlots],
     sitename = "BigRiverPlots.jl",
     pages = [
         "Home" => "index.md",
         "Biplot" => "biplot.md",
-        "Confidence" => "confidence.md",
-        "JIVE Variance" => "jive_variance.md",
-        "Loadings" => "loadings.md",
-        "Loadings Heatmap" => "loadings_heatmap.md",
-        "Mosaic" => "mosaic.md",
-        "Pairs" => "pairs.md",
-        "Predict Observations" => "predicted_observations.md",
-        "Scores" => "scores.md",
-        "Scree" => "scree.md",
-        "Sparsity" => "sparse.md",
-        "Vip" => "vip.md",
-        "API Reference" => "api.md", 
+        # "Confidence" => "confidence.md",
+        # "Grouped Correlation" => "grouped_correlation.md",
+        # "JIVE Variance" => "jive_variance.md",
+        # "Loadings" => "loadings.md",
+        # "Loadings Heatmap" => "loadings_heatmap.md",
+        # "Mosaic" => "mosaic.md",
+        # "Pairs" => "pairs.md",
+        # "Predict Observations" => "predicted_observations.md",
+        # "Scores" => "scores.md",
+        # "Scree" => "scree.md",
+        # "Sparsity" => "sparse.md",
+        # "Vip" => "vip.md",
+        # "API Reference" => "api.md", 
     ],
 )
 

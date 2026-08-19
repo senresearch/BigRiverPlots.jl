@@ -16,7 +16,7 @@ using Plots
 using Helium
 using FileIO
 using StableRNGs
-using Random, Distributions
+using Random, Distributions, DelimitedFiles, LinearAlgebra, DataFrames
 ENV["GKSwstype"] = "nul"
 
 
@@ -41,6 +41,7 @@ ENV["GKSwstype"] = "nul"
 	include("predict_observations_helpers_tests.jl")
 	include("jive_variance_helpers_tests.jl")
 	include("mosaic_helpers_tests.jl")
+	include("grouped_correlation_helpers_tests.jl")
 
 	#########
 	# plots #
@@ -56,5 +57,6 @@ ENV["GKSwstype"] = "nul"
 	include("sparsity_tests.jl")
 	include("predict_observations_tests.jl")
 	include("jive_variance_tests.jl")
+	include("grouped_correlation_tests.jl")
 
 end
