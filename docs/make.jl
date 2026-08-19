@@ -25,6 +25,7 @@ makedocs(;
         "Home" => "index.md",
         "Biplot" => "biplot.md",
         "Confidence" => "confidence.md",
+        "Grouped Correlation" => "grouped_correlation.md",
         "JIVE Variance" => "jive_variance.md",
         "Loadings" => "loadings.md",
         "Loadings Heatmap" => "loadings_heatmap.md",
