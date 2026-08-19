@@ -32,6 +32,7 @@ decomposition that produces the required inputs.
 
 * **Biplot** — displays observations and variable loadings on the same coordinate system.
 * **Confidence plot** — displays uncertainty regions around observations or group means.
+* **Grouped correlation heatmap** — organizes variables into distinct categories or clusters and displays relationships inside and between groups.
 * **JIVE variance plot** — summarizes the joint, individual, and residual variation for each data block.
 * **Loadings heatmap** — displays variable loadings across multiple components.
 * **Loadings plot** — shows the contribution of each variable to a selected component.
