@@ -43,6 +43,7 @@ decomposition that produces the required inputs.
 * **Scree plot** — shows the variance explained by each component.
 * **Sparsity plot** — shows the number of variables retained in each component.
 * **VIP plot** — displays Variable Importance in Projection scores from a projection-based model.
+* **Volcano plot** — displays log2 fold changes against transformed p-values, highlighting significant results.
 
 ## Installation
 

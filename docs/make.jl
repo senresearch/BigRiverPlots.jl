@@ -46,6 +46,7 @@ makedocs(;
         "Scree" => "scree.md",
         "Sparsity" => "sparse.md",
         "Vip" => "vip.md",
+        "Volcano" => "volcano.md",
         "API Reference" => "api.md", 
     ],
 )

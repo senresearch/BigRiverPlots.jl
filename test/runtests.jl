@@ -42,6 +42,7 @@ ENV["GKSwstype"] = "nul"
 	include("jive_variance_helpers_tests.jl")
 	include("mosaic_helpers_tests.jl")
 	include("grouped_correlation_helpers_tests.jl")
+	include("volcano_helpers_tests.jl")
 
 	#########
 	# plots #
@@ -58,5 +59,6 @@ ENV["GKSwstype"] = "nul"
 	include("predict_observations_tests.jl")
 	include("jive_variance_tests.jl")
 	include("grouped_correlation_tests.jl")
+	include("volcano_tests.jl")
 
 end

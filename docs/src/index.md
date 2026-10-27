@@ -42,6 +42,8 @@ decomposition that produces the required inputs.
 * **Scree plot** — shows the variance explained by each component.
 * **Sparsity plot** — shows the number of variables retained in each component.
 * **VIP plot** — displays Variable Importance in Projection scores from a projection-based model.
+* **Volcvano plot** — shows the relationship between statistical significance and 
+    the magnitude of change in an omic experiment.
 
 ## Installation
 

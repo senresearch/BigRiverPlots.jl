@@ -136,6 +136,15 @@ export groupedcorrelationplot, groupedcorrelationplot!, GroupedCorrelationPlot
 include("./grouped_correlation/plot_grouped_correlation.jl")
 export plot_grouped_correlation, plot_grouped_correlation!
 
+# volcano plot functions
+include("./volcano/volcano_helpers.jl")
+export get_volcano_coords
+
+include("./volcano/volcano_recipe.jl")
+export volcanoplot, volcanoplot!, VolcanoPlot
+
+include("./volcano/plot_volcano.jl")
+export plot_volcano, plot_volcano!
 
 
 end # module BigRiverPlots
